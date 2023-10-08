@@ -156,6 +156,7 @@
     padding: 1rem;
     border-radius: 1rem;
     background-color: #fff;
+    text-transform: capitalize;
 }
 
 .pokemon .about .abilidade {
@@ -170,13 +171,51 @@
     padding: 0;
     margin: 0;
     list-style: none;
+    text-transform: capitalize;
 }
 
 .pokemon .about .abilities .ability {
     color: #000;
+    display: inline;
+    text-transform: capitalize;
     padding: .25rem .5rem;
     margin: .25rem 0;
     font-size: .625rem;
+}
+
+.pokemon .about .peso {
+    padding: 0;
+    margin: 0;
+    text-transform: capitalize;
+    font-size: 0.525rem;
+    font-weight: 100;
+    text-align: left;
+}
+
+.pokemon .about .weight {
+    color: #000;
+    display: inline;
+    padding: .25rem .5rem;
+    margin: .25rem 0;
+    font-size: .525rem;
+    text-transform: capitalize;
+}
+
+.pokemon .about .altura {
+    padding: 0;
+    margin: 0;
+    text-transform: capitalize;
+    font-size: 0.525rem;
+    font-weight: 100;
+    text-align: left;
+}
+
+.pokemon .about .height {
+    color: #000;
+    display: inline;
+    padding: .25rem .5rem;
+    margin: .25rem 0;
+    font-size: .525rem;
     text-transform: capitalize;
 }
 

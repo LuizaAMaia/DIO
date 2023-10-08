@@ -24,10 +24,17 @@ function loadPokemonItens(offset, limit){
 
                 <div class = "about">
 
-                    <ol class="abilities">
-                    <span class = "abilidade">Abilidade</span>
-                        ${pokemon.abilities.map((ability) => `<li class="ability ${ability}">${ability}</li>`).join('')}
+                    <ol class = "height">
+                        <span class = "altura">Altura</span>  ${pokemon.height} mm
                     </ol>
+
+                    <ol class = "weight">
+                        <span class = "peso">Peso</span>  ${pokemon.weight} dg
+                    </ol>
+
+                    <ol class="abilities">
+                    <span class = "abilidade">Abilidade</span> ${pokemon.abilities.map((ability) => `<li class="ability ${ability}">${ability}</li>`).join('')}
+                    </ol>       
 
                 </div>
             </li>
