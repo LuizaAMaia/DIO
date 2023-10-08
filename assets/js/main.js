@@ -33,7 +33,7 @@ function loadPokemonItens(offset, limit){
                     </ol>
 
                     <ol class="abilities">
-                    <span class = "abilidade">Abilidade</span> ${pokemon.abilities.map((ability) => `<li class="ability ${ability}">${ability}</li>`).join('')}
+                    <span class = "habilidade">Habilidade</span> ${pokemon.abilities.map((ability) => `<li class="ability ${ability}">${ability}</li>`).join('')}
                     </ol>       
 
                 </div>
